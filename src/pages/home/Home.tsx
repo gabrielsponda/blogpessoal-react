@@ -1,38 +1,25 @@
+
 function Home() {
 
     return (
         <>
-            <div id="container" style={{
-                width: "100vw",
-                display: "flex",
-                justifyContent: "center"
-            }}>
-                <div id="subcontainer">
-                    <div id="texto" style={{
-                        width: "80vw",
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center"
-                    }}>
-                        <h2>Seja bem-vindo!</h2>
-                        <p>Expresse aqui os seus pensamentos e suas opiniões.</p>
+            <div id="container" className="flex justify-center">
+                <div id="subcontainer" className="container grid grid-cols-2 text-white">
+                    <div id="texto" className="flex flex-col gap-4 items-center justify-center py-4">
+                        <h2 className="text-5xl font-bold">Seja bem-vindo!</h2>
+                        <p className="text-xl">Expresse aqui os seus pensamentos e suas opiniões.</p>
+                        <div id="container-buttons" className="flex justify-around gap-4 w-1/2 text-center">
+                            <div className="rounded text-white border-white border-solid border-2 px-4 py-2 flex-1">Nova Postagem</div>
+                            <div className="rounded text-black border-white bg-white border-solid border-2 px-4 py-2 flex-1">Ver Postagens</div>
+                        </div>
                     </div>
-                    <div id="imagem" style={{
-                        width: "80vw",
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center"
-                    }}>
-                        <img
-                            src="https://i.imgur.com/VpwApCU.png"
-                            alt="Imagem da página Home"
-                            width="400px"
-                        />
+                    <div id="imagem" className="flex justify-center">
+                        <img className="w-2/3" src="https://i.imgur.com/VpwApCU.png" alt="Imagem da Página Home" />
                     </div>
                 </div>
-            </div >
+            </div>
         </>
-    )
+    );
 }
 
-export default Home
+export default Home;
