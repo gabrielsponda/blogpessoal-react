@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
 import Home from './pages/home/Home'
 import Cadastro from './pages/cadastro/Cadastro'
+import Login from './pages/login/Login'
 
 function App() {
 
@@ -11,9 +12,10 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <div className="flex-grow mt-16 min-h-[80vh] bg-violet-600" >
+        <div className="min-h-[80vh]" >
           <Routes>
             <Route path="/" element={<></>} />
+            <Route path="/Login" element={<Login />} />
             <Route path="/home" element={<Home />} />
             <Route path="/cadastro" element={<Cadastro />} />
           </Routes>

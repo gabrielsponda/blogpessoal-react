@@ -3,7 +3,7 @@ function Home() {
 
     return (
         <>
-            <div id="container" className="flex justify-center">
+            <div id="container" className="flex justify-center bg-violet-600">
                 <div id="subcontainer" className="container grid grid-cols-2 text-white">
                     <div id="texto" className="flex flex-col gap-4 items-center justify-center py-4">
                         <h2 className="text-5xl font-bold">Seja bem-vindo!</h2>
