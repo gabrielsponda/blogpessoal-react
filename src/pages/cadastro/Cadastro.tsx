@@ -25,7 +25,7 @@ function Cadastro() {
         if (usuario.id !== 0) {
             retornar()
         }
-    })
+    }, [usuario])
 
     function retornar() {
         navigate("/login")
@@ -133,7 +133,7 @@ function Cadastro() {
                         </button>
                         <button className='rounded text-white bg-indigo-400 hover:bg-indigo-900 w-1/2 py-2 flex justify-center' type='submit'>
                             {isLoading ?
-                                <RotatingLines strokeColor="white" strokeWidth="5" animationDuration="0.75" width="24" visible={true}/>
+                                <RotatingLines strokeColor="white" strokeWidth="5" animationDuration="0.75" width="24" visible={true} />
                                 :
                                 <span>Cadastrar</span>
                             }
