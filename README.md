@@ -18,7 +18,7 @@ Este repositório contém o frontend do Blog Pessoal, uma aplicação web desenv
 
 ## Deploy
 
-O frontend da aplicação está hospedado no Netlify e pode ser acessado através do seguinte link: [https://educajunto.netlify.app/](https://educajunto.netlify.app/).
+O deploy do Blog Pessoal está inativo no momento. No entanto, você pode conferir um deploy de outro projeto meu (realizado em equipe) bastante parecido e com as mesmas funcionalidades através do seguinte link: [https://educajunto.netlify.app/](https://educajunto.netlify.app/)
 
 ## Backend
 
